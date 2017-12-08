@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Tic Tac Toe : Unbeatable</title>
+        
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    
+    <body>
+        
+        <div class="tic-tac-toe" id="tic-tac-toe">
+
+            <div id="who-first-row">
+                <label for="who-first">Who'll start <span id="icon-que"><img src="img/q32x32.png"></span></label>
+                <div id="who-first">
+                
+                    <span id="span-text">
+                        <p>Please&nbsp;select</p>
+                        <span id="square"></span>
+                    </span>
+                    <input type="button" id="ph" value="Me">
+                    <input type="button" id="pb" value="Bot">
+                    
+                </div>
+            </div>
+            
+            <div id="board">
+            
+                <div class="tttr" id="row-top">
+
+                    <ul>
+                        <li class="cell" id="cell-0"><div class="content">O</div></li>
+                        <li class="cell" id="cell-1"><div class="content">O</div></li>
+                        <li class="cell" id="cell-2"><div class="content">O</div></li>
+                    </ul>
+
+                </div>
+
+                <div class="tttr" id="row-middle">
+
+                    <ul>
+                        <li class="cell" id="cell-3"><div class="content">O</div></li>
+                        <li class="cell" id="cell-4"><div class="content">O</div></li>
+                        <li class="cell" id="cell-5"><div class="content">O</div></li>
+                    </ul>
+
+                </div>
+
+                <div class="tttr" id="row-bottom">
+
+                    <ul>
+                        <li class="cell" id="cell-6"><div class="content">O</div></li>
+                        <li class="cell" id="cell-7"><div class="content">O</div></li>
+                        <li class="cell" id="cell-8"><div class="content">O</div></li>
+                    </ul>
+
+                </div>
+                
+            </div>
+
+            <div id="start-over">
+
+                <button type="button" id="btnStartOver"><span id="icon-restart"><img src="img/startover.png"></span> Start Over</button>
+
+            </div>
+            
+            <div id="bot">
+
+                <div class="bot-thinking">
+
+                    <img src="img/bot-thinking.png">
+                    <p id="show-result"></p>
+                    
+                </div>
+
+            </div>
+        
+        </div>
+
+        <script src="script.js"></script>
+    
+    </body>
+
+</html>
